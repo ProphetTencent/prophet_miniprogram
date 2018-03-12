@@ -7,13 +7,13 @@ prophet miniprogram
 
 组件列表：
 -----
-    1. 菜单消息 smartqa.wpy
+    * 菜单消息 smartqa.wpy
     ……
 
 用法：
 -----
-    项目使用wepy框架开发组件, 详见[wepy官方文档](https://tencent.github.io/wepy/document.html)。<br/>
-    下载component嵌入到开发者自己的项目中，并在合适的页面位置引用组件即可使用。<br/>
+    项目使用wepy框架开发组件, 详见[wepy官方文档](https://tencent.github.io/wepy/document.html "wepy") <br>
+    下载component嵌入到开发者自己的项目中，并在合适的页面位置引用组件即可使用。<br>
     本项目中index.wpy 提供了 使用smartqa组件的一个简单示例:
 
 ```html
@@ -21,8 +21,8 @@ prophet miniprogram
       <smartqa sdkappid="" appid="" identifier="" botid="" :fromusername.sync="globalNickName"></smartqa>
     </view>
 ```
-    开发者需要填上在腾讯云智能客服系统中的相关信息(appid, sdkappid, identifier, botid)<br/>
-    此外，还需要在smart.wpy中填上账号的usersig后即可将小程序绑定到机器人的智能问答上。
+    开发者需要填上在腾讯云智能客服系统中的相关信息(appid, sdkappid, identifier, botid)<br>
+    此外，还需要在smart.wpy中填上账号的`usersig`后即可将小程序绑定到机器人的智能问答上。
 
 ```javascript
       var random = parseInt(Math.random() * 1000000, 10) + 1
